@@ -1,37 +1,30 @@
-# M.Gayathri-G40-AIML
+# Customer Segmentation Project
 
-## Task 8: Customer Segmentation with Actionable Business Insights
+## Objective
+Segment customers into different groups using Machine Learning.
 
-### Project Overview
-This project focuses on customer segmentation using data analytics techniques to identify different customer groups based on their purchasing behavior. The analysis helps businesses understand customer patterns and make data-driven decisions for marketing and customer retention.
-
-### Objectives
-- Analyze customer data
-- Segment customers based on behavior
-- Identify high-value customers
-- Generate actionable business insights
-- Support targeted marketing strategies
-
-### Tools and Technologies
+## Technologies
 - Python
 - Pandas
 - NumPy
+- Scikit-learn
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
 
-### Key Insights
-- Identified distinct customer segments
-- Analyzed customer purchasing patterns
-- Recommended targeted marketing strategies
-- Improved understanding of customer behavior
+## Project Structure
+data/
+outputs/
+src/
+main.py
+README.md
 
-### Repository Contents
-- Customer Segmentation Notebook
-- Dataset
-- Project Report
-- Supporting Documentation
+## Algorithms Used
+- KMeans Clustering
+- Linear Regression
+- Random Forest Classification
 
-### Author
-M.Gayathri
-G40 AIML
+## Output
+- Cluster Summary
+- Business Insights
+- Visualizations
+Project updated on feature branch
