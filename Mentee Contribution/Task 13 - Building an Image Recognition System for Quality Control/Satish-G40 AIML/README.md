@@ -8,6 +8,20 @@ This project implements a **binary image classification system** that automatica
 
 The system uses a **Convolutional Neural Network (CNN)** trained on the Kaggle dataset: *Casting Product Image Data for Quality Inspection*.
 
+---
+
+## 📦 Project Size (Optimized for GitHub)
+
+✅ **GitHub Upload**: ~500 KB (source code + notebooks only)  
+✅ **No Large Files**: Data & models excluded via `.gitignore`  
+✅ **Two Notebook Versions**:
+- `casting_defect_detection.ipynb` - Full version with detailed explanations
+- `casting_defect_detection_clean.ipynb` - Lightweight clean version (recommended for GitHub)
+
+See [GITHUB_UPLOAD_GUIDE.md](GITHUB_UPLOAD_GUIDE.md) for upload instructions.
+
+---
+
 ## Business Scenario
 
 A casting manufacturer produces metal components such as pump impellers. When a product reaches the inspection point:
@@ -183,7 +197,14 @@ python demo.py         # Shows architecture
 
 ## Setup Instructions (Full)
 
-### 1. Install Dependencies
+### 1. Download Project from GitHub
+
+```bash
+git clone https://github.com/YOUR_USERNAME/casting-defect-detection.git
+cd casting-defect-detection
+```
+
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
